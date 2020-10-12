@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#ECEDED ;
+    font-family: 'Oswald', sans-serif;
+}
+#container{
+    max-width:1000px;
+    background-color: #7BBDF3 ;
+    margin: 0 auto;
+    padding:20px;
+}
+header{
+    
+}
+#profile{
+    width:120px;
+    height:140px;
+    border:2px solid white;
+    border-radius:50%;
+    float:left;
+}
+.header-bio{
+    float:left;
+    margin:30px;   
+}
+h1, h2, h3, h4, h5, h6{
+    color:#610664 
+}
+.header-contact{
+    float:right;
+    padding:30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color:#B31BB8  ;
+    font-weight:bold;
+}
+.header-contact a:hover{
+    color:#F384F7 ;
+    text-decoration: underline;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    border:2px solid black;
+    border-bottom:none;
+    margin:20px auto;;
+    width:100%;
+}
+/*-----------------------
+Personal section start.
+-------------------------*/
+#section1{
+
+}
+.content1{
+margin:30px;
+}
+.left-div{
+    float: left;
+    width:30%;
+    
+}
+.right-div {
+    float: left;
+    width: 70%;
+}
+.common-hr{
+    border:1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin:20px auto;
+}
+/*-------------------------------
+Education start
+---------------------------------*/
+.edu-temp-left{
+    float:left;
+    width:45%;
+}
+.edu-temp-right{
+    float:right;
+    width:45%;
+}
+/*-------------------------------
+Honors and Awards section start
+---------------------------------*/
+.list-div ul li{
+    margin-left: 20px;
+}
+/*-------------------------------
+footer start
+---------------------------------*/
+.footer-div1{
+   
+    background-color: black;
+    text-align: center;
+    padding:10px;
+}
+.footer-div1 a{
+    text-decoration: none;
+    color:white;
+    margin:10px;
+}
+.footer-div1 a:hover{
+    text-decoration: underline  white;
+    color:tomato;
+}
+.footer-div1 p{
+    color:white;
+    margin-top:20px;
+}
